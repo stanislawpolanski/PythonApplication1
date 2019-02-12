@@ -1,5 +1,8 @@
 import sys
 from math import cos, radians
-
-for i in range(360):
-	print(cos(radians(i)))
+import os
+workingDirectoryPath = os.getcwd()
+print(workingDirectoryPath)
+print(os.listdir())
+fileObject = open('TextFile1.txt')
+print(fileObject)
